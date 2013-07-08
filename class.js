@@ -26,3 +26,5 @@ WIZARD = new JSRPG.Class(
   "Wizard", // Class Name
   {str:10, dex:15, int:20} // Class Starting Attributes
 )
+
+DEFAULT_CLASSES

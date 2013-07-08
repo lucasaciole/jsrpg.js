@@ -11,6 +11,9 @@ JSRPG.Entity = (function() {
         this[key] = attributes[key];
       }
     }
+
+    this.health = calculateHealt()
+    this.mana = calculateMana()
   }
 
   // Entity functions/methods/actions/whatever...
@@ -24,7 +27,6 @@ JSRPG.Entity = (function() {
   }
 
   Entity.prototype.damageOn = function(target){
-    debugger
   }
 
   return Entity
